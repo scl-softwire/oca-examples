@@ -110,10 +110,10 @@ boolean c = false, d;
 if (c = true) { d = true; } else { d = false; } // What are `c` and `d`?
 
 boolean e = true, f;
-if (e == true || e = false) { f = true; } else { f = false; } // What are `e` and `f`?
+if ((e == true) || (e = false)) { f = true; } else { f = false; } // What are `e` and `f`?
 
 boolean g = true, h;
-if (g = false || g == true) { h = true; } else { h = false; } // What are `g` and `h`?
+if ((g = false) || (g == true)) { h = true; } else { h = false; } // What are `g` and `h`?
 ```
 
 8. What is the value of each variable at the marked points?
